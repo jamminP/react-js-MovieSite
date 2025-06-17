@@ -1,9 +1,9 @@
-import DETAILDATA from "../../data/movieListData.json";
+import DETAILDATA from "../../data/movieDetailData.json";
 import { StarRating } from "./StarRating";
 
 function MovieDetail() {
   return (
-    <div className="flex w-screen h-screen gap-5">
+    <div className="flex w-screen h-screen gap-5 mt-5">
       <div className="w-1/2">
         <div className="flex items-center justify-center">
           <img
